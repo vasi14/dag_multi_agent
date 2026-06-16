@@ -15,7 +15,7 @@ Problem 1)
 - **I**: [query_I.md](S8SharedCode/code/result_logs/query_I.md)
 - **J**: [query_J.md](S8SharedCode/code/result_logs/query_J.md)
 - **K**: [query_K.md](S8SharedCode/code/result_logs/query_K.md)
-- **hello**: [query_hello.md](S8SharedCode/code/result_logs/query_hello.md
+- **hello**: [query_hello.md](S8SharedCode/code/result_logs/query_hello.md)
 
 Problem 2)
 - **parallel fan-out**: [query_fan_out.md](S8SharedCode/code/result_logs/query_fan_out.md)
