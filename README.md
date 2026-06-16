@@ -2,20 +2,29 @@
 
 ## Problem Statement
 
-- Pass the five base queries (hello, A, I, J, K) from this session. Verbatim, within the iteration and wall-clock bounds named alongside each.
-- Design one query that requires parallel fan-out. The query must have at least three independent sub-tasks that the Planner correctly emits as concurrent nodes. Verify that the parallel layer's wall-clock is the maximum of the branches, not the sum.
-- Design one query that requires a Critic verdict. Choose a property the Critic can actually verify with the tools available to it. The Critic must produce both a pass and a fail across two runs of the query, and the fail must successfully splice in a Planner recovery that produces a corrected answer.
-- Fill in the Coder skill. The current prompts/coder.md is a stub; replace it with a prompt that emits Python suitable for the SandboxExecutor. Demonstrate the Coder on one query where the answer requires computation the Formatter cannot reliably produce from text alone.
-- Add one new skill to agent_config.yaml. Choose a skill that the existing catalogue does not cover. Write its prompt file. Write one query that exercises it. The orchestrator should not need modification; if it does, the modification is reportable.
+1) Pass the five base queries (hello, A, I, J, K) from this session. Verbatim, within the iteration and wall-clock bounds named alongside each.
+2) Design one query that requires parallel fan-out. The query must have at least three independent sub-tasks that the Planner correctly emits as concurrent nodes. Verify that the parallel layer's wall-clock is the maximum of the branches, not the sum.
+3) Design one query that requires a Critic verdict. Choose a property the Critic can actually verify with the tools available to it. The Critic must produce both a pass and a fail across two runs of the query, and the fail must successfully splice in a Planner recovery that produces a corrected answer.
+4) Fill in the Coder skill. The current prompts/coder.md is a stub; replace it with a prompt that emits Python suitable for the SandboxExecutor. Demonstrate the Coder on one query where the answer requires computation the Formatter cannot reliably produce from text alone.
+5) Add one new skill to agent_config.yaml. Choose a skill that the existing catalogue does not cover. Write its prompt file. Write one query that exercises it. The orchestrator should not need modification; if it does, the modification is reportable.
   
 ## Assignment Submissions - Result Logs
 
+Problem 1)
 - **A**: [query_A.md](S8SharedCode/code/result_logs/query_A.md)
 - **I**: [query_I.md](S8SharedCode/code/result_logs/query_I.md)
 - **J**: [query_J.md](S8SharedCode/code/result_logs/query_J.md)
 - **K**: [query_K.md](S8SharedCode/code/result_logs/query_K.md)
-- **hello**: [query_hello.md](S8SharedCode/code/result_logs/query_hello.md)
+- **hello**: [query_hello.md](S8SharedCode/code/result_logs/query_hello.md
+
+Problem 2)
 - **parallel fan-out**: [query_fan_out.md](S8SharedCode/code/result_logs/query_fan_out.md)
-- **critic verdict**: [query_critic](S8SharedCode/code/result_logs/query_critic)
+
+Problem 3)
+- **critic verdict**: [query_critic](S8SharedCode/code/result_logs/query_critic.md)
+
+Problem 4)
 - **coder skill**: [query_coder.md](S8SharedCode/code/result_logs/query_coder.md)
+
+Problem 5)
 - **translation skill**: [query_translator.md](S8SharedCode/code/result_logs/query_translator.md)
